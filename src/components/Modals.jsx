@@ -38,7 +38,7 @@ const Modals = (props) => {
 						<div class="middle-item d-flex">
 							<ul style={{padding:'0px' ,width: '86px',textAlign: 'center'}}>Color</ul>
 							<ul style={{padding:'0px',width: "96px", textAlign: "center"}}>Size</ul>
-							<ul style={{padding:'0px',width: "82px", textAlign: "center"}}>Quantity</ul>
+							<ul style={{padding:'0px',width: "82px", textAlign: "center"}}>Qnt</ul>
 						</div>
 						<div style={{padding:'0px' ,width: "127px", textAlign:"end", fontWeight: "700"}}/>Price</div>
 					</div>
