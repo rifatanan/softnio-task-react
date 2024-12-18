@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    font-family: 'Roboto';
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    padding: 0 px;
+}
+
+.ImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 60px;
+}
+
+.mainImage {
+    width: 507px;
+    height: 580px;
+    border-radius: 4px;
+}
+
+.header {
+    width: 507px;
+}
+
+.card-title {
+    padding: 12px 0;
+    color: #364a63;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -1.2;
+}
+
+.review {
+    color: #8091a7;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    gap: 8px;
+}
+.titile-price {
+    color: #8091a7;
+    padding-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.titile-price del {
+    padding-right: 5px;
+}
+
+.titile-price span {
+    color: #6576ff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.titile-price label {
+    color: #6576ff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.card-text {
+    padding-top: 20px;
+    padding-right: 4px;
+    color: #8091a7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.type {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.band-color,
+.wrist-color {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #364a63;
+}
+
+.wristDiv input[type='radio'] {
+    display: flex;
+    gap: 10px;
+}
+
+.wristDiv label input:checked {
+    border: 1px solid red;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+.radio-button input[type='radio'] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#exampleRadios:nth-child(1) {
+    background-color: #816bff;
+    border: 2px solid white;
+}
+
+#exampleRadios:nth-child(2) {
+    background-color: #1fcec9;
+    border: 2px solid white;
+}
+
+#exampleRadios:nth-child(3) {
+    background-color: #4b97d3;
+    border: 2px solid white;
+}
+
+#exampleRadios:nth-child(4) {
+    background-color: #3b4747;
+    border: 2px solid white;
+}
+
+#exampleRadios:checked:nth-child(1) {
+    outline: 2px solid #816bff;
+}
+
+#exampleRadios:checked:nth-child(2) {
+    outline: 2px solid #1fcec9;
+}
+
+#exampleRadios:checked:nth-child(3) {
+    outline: 2px solid #4b97d3;
+}
+
+#exampleRadios:checked:nth-child(4) {
+    outline: 2px solid #3b4747;
+}
+
+.option {
+    padding: 8px 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #dbdfea;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25999999046325684px;
+}
+
+.option label {
+    cursor: pointer;
+    color: #8091a7;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: end;
+}
+
+.selected {
+    color: #6576ff;
+    border: 1px solid #6576ff;
+}
+
+.wrist-button {
+    display: flex;
+    gap: 10px;
+}
+.custom-btn {
+    border: 1px solid #dbdfea;
+    border-radius: 2px;
+    background-color: white;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.custom-btn:focus {
+    color: #6576ff;
+    border: 1px solid #6576ff;
+}
+
+.custom-btn span {
+    color: #8091a7;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.quantity-add {
+    margin-top: 20px;
+    gap: 12px;
+}
+
+#quantity {
+    pointer-events: none;
+}
+
+.group-btn {
+    display: flex;
+}
+
+.group-btn button {
+    font-size: 18.2px;
+    font-weight: 400;
+    line-height: 23.1px;
+    padding: 3px 8px;
+    border: 1px solid #dbdfea;
+    background-color: white;
+}
+
+.group-btn input {
+    width: 40px;
+    padding: 3px 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border: 1px solid #dbdfea;
+}
+
+.heart {
+    background-color: white;
+    border: none;
+}
+
+.price-btn input[type='checkbox'] {
+    appearance: none;
+}
+
+.group-check-btn {
+    display: flex;
+}
+
+.group-check-btn input {
+    width: 60px;
+    border-bottom: 0.5px solid #dbdfea;
+    border-top: 0.5px solid #dbdfea;
+    border-left: none;
+    border-right: none;
+    background: white;
+    outline: none;
+    padding: 3px 0;
+    text-align: center;
+}
+
+.minus {
+    border: 0.5px solid #dbdfea;
+    background: white;
+    padding: 3px 8px;
+}
+
+.plus {
+    border: 0.5px solid #dbdfea;
+    background: white;
+    padding: 3px 8px;
+}
+
+/*size button */
+
+/* .size-button {
+    cursor: pointer;
+} */
+
+.price-btn {
+    display: flex;
+    color: #364a63;
+    gap: 12px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.price-btn input[type='radio'] {
+    display: none;
+    appearance: none;
+}
+
+.price-btn label {
+    display: inline-block;
+    border: 1px solid #dbdfea;
+    color: #364a63;
+    border-radius: 4px;
+    padding: 8px 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.price-btn input[type='radio']:checked + label {
+    color: #6576ff;
+    border-color: #6576ff;
+}
+.price-btn span {
+    padding: none;
+}
+
+#price-amount {
+    color: #8091a7;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.checkoutButton {
+    display: flex;
+    justify-content: center;
+}
+.checkoutButton button {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #ffbb5a;
+    margin-left: 570px;
+    border: none;
+}
+.checkoutButton button:hover {
+    background-color: #ffbb5a;
+}
