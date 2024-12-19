@@ -3,14 +3,15 @@
 A React.js project built using designs created in Figma. The UI is implemented with a combination of Bootstrap and custom styles for a polished and unique user experience.
 
 ## Features
-- **Bootstrap**: Utilized for responsive layout and pre-designed components.
-- **Custom Design**: Tailored styling to achieve a unique and appealing look.
+
+-   **Bootstrap**: Utilized for responsive layout and pre-designed components.
+-   **Custom Design**: Tailored styling to achieve a unique and appealing look.
 
 ## Technologies Used
 
-- React.js
-- Bootstrap
-- Custom CSS
+-   React.js
+-   Bootstrap
+-   Custom CSS
 
 ## Installation
 
@@ -19,8 +20,13 @@ A React.js project built using designs created in Figma. The UI is implemented w
 npm install react-bootstrap bootstrap
 
 2. Install dependencies:
-npm install
+   npm install
 
 ## Project Run
+
 1. npm start
 
+## Links
+
+-   [GitHub Repository](https://github.com/your-username/your-repo-name)
+-   [Live Demo](https://example.com)
