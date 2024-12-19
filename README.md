@@ -28,5 +28,4 @@ npm install react-bootstrap bootstrap
 
 ## Links
 
--   [GitHub Repository](https://github.com/your-username/your-repo-name)
--   [Live Demo](https://example.com)
+-   [Live Demo](https://softnio-task-react.vercel.app/)
