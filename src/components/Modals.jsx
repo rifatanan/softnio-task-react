@@ -15,7 +15,7 @@ const Modals = (props) => {
 	},0);
 	
     return (
-		<div style={{width:'650px'}}>
+		<div>
 			<Modal
 				{...props}
 				size="lg"
@@ -30,7 +30,6 @@ const Modals = (props) => {
 					lineHeight: '24px'
 					}}>Your Cart</h1>
 					<div style={{borderBottom:'1px solid #DBDFEA',color:'#8091A7'}}>
-						
 						<div className='d-flex'>
 							<div style={{padding:'0px', margin:'0',width: "394px",display:"flex"}}>			
 								<span id="title-name">Title</span>
@@ -54,12 +53,12 @@ const Modals = (props) => {
 										/>
 										<span id="title-name">{item.title}</span>
 									</div>
-									<div className="middle-item d-flex justify-content-center">
-										<ul style={{padding:'0px',width: '86px',textAlign: 'center'}}>{item.color}</ul>
-										<ul style={{padding:'0px',width: "96px", textAlign: "center",fontWeight: "700"}}>{item.size}</ul>
-										<ul style={{padding:'0px',width: "82px", textAlign: "center", fontWeight: "700"}}>{
+									<div className=" d-flex justify-content-center align-items-center">
+										<div style={{padding:'0px',width: '86px',textAlign: 'center'}}>{item.color}</div>
+										<div style={{padding:'0px',width: "96px", textAlign: "center",fontWeight: "700"}}>{item.size}</div>
+										<div style={{padding:'0px',width: "82px", textAlign: "center", fontWeight: "700"}}>{
 											item.quantity
-										}</ul>
+										}</div>
 									</div>
 									<div style={{width: "140px", textAlign:"end", fontWeight: "700"}}>${
 										item.price * item.quantity

@@ -12,10 +12,16 @@
 
 .ImageContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    gap: 60px;
+    gap: 20px;
+}
+@media screen and (min-width: 1080px) {
+    .ImageContainer {
+        flex-direction: row;
+    }
 }
 
 .mainImage {
@@ -335,9 +341,5 @@
     gap: 10px;
     border-radius: 20px;
     background-color: #ffbb5a;
-    margin-left: 570px;
     border: none;
-}
-.checkoutButton button:hover {
-    background-color: #ffbb5a;
 }
