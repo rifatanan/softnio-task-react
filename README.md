@@ -3,8 +3,6 @@
 A React.js project built using designs created in Figma. The UI is implemented with a combination of Bootstrap and custom styles for a polished and unique user experience.
 
 ## Features
-
-- **Figma Design Integration**: The UI is crafted based on precise Figma designs.
 - **Bootstrap**: Utilized for responsive layout and pre-designed components.
 - **Custom Design**: Tailored styling to achieve a unique and appealing look.
 
